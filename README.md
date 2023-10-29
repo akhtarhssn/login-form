@@ -2,13 +2,17 @@
 
 A reusable and customizable login and signup form component for React, styled with styled-components.
 
+## Demo
+
+[https://login-form-five-beryl.vercel.app]
+
 ![preview img](/preview.jpeg)
 
 ## Table of Contents
 
 - [React Styled-Component Login and Signup Form Component](#react-styled-component-login-and-signup-form-component)
-  - [Overview](#overview)
   - [Demo](#demo)
+  - [Overview](#overview)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
   - [Installation](#installation)
@@ -18,10 +22,6 @@ A reusable and customizable login and signup form component for React, styled wi
 ## Overview
 
 The React Styled-Component Login and Signup Form Component is a flexible and customizable component that allows you to easily integrate login and signup forms into your React applications. It is styled with styled-components, making it highly adaptable to fit the design of your application.
-
-## Demo
-
-[https://login-form-five-beryl.vercel.app]
 
 ## Technologies Used
 
