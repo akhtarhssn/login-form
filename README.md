@@ -41,12 +41,12 @@ To use this component in your React project, follow these steps:
 1. Install the component via npm or yarn:
 
    ```shell
-   npm install react-styled-components
+   npm install react-styled-login-signup-form
 
  or
 
-   ```shell
-   yarn add react-styled-components
+   yarn add react-styled-login-signup-form
+
 
 ## Contributing
 
