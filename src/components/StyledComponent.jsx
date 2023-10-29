@@ -51,7 +51,7 @@ const MainContainer = styled.div`
 `;
 
 const WelcomeText = styled.h2`
-  margin: 3rem 0 2rem 0;
+  margin: 1.5rem 0 1.5rem 0;
 `;
 
 const InputContainer = styled.div`
@@ -86,7 +86,7 @@ const IconsContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 20px;
-  margin: 2rem 0 3rem 0;
+  margin: 1rem 0 1rem 0;
   width: 80%;
 `;
 
