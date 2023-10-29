@@ -95,6 +95,17 @@ const ForgotPassword = styled.h4`
   margin-bottom: 30px;
 `;
 
+const CheckBox = styled.div`
+  width: 100%;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-transform: none;
+  gap: 10px;
+`;
+
 export {
   MainContainer,
   WelcomeText,
@@ -103,4 +114,5 @@ export {
   HorizontalRule,
   IconsContainer,
   ForgotPassword,
+  CheckBox,
 };

@@ -6,6 +6,7 @@ import {
   HorizontalRule,
   IconsContainer,
   ForgotPassword,
+  CheckBox,
 } from "../components/StyledComponent";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 import Input from "../components/Input";
@@ -27,13 +28,26 @@ const Login = () => {
         <Input type="text" placeholder="Email" />
         <Input type="password" placeholder="Password" />
       </InputContainer>
+      <CheckBox>
+        <input type="checkbox" />
+        <span>Remember Me</span>
+      </CheckBox>
+      <CheckBox>
+        <input type="checkbox" />
+        <span>Agree to</span>{" "}
+        <span style={{ fontWeight: "bold", textDecoration: "underline" }}>
+          Terms & Conditions
+        </span>
+      </CheckBox>
       <ButtonContainer>
         <Button content="Login" />
       </ButtonContainer>
       <p style={{ fontSize: "14px", textTransform: "none" }}>
         Don`t have an account?{" "}
-        <Link to="/signup">
-          <span style={{ fontWeight: "bold", cursor: "pointer" }}>
+        <Link to="/signup" style={{ textDecoration: "none" }}>
+          <span
+            style={{ fontWeight: "bold", cursor: "pointer", color: "#fff" }}
+          >
             Register
           </span>
         </Link>
