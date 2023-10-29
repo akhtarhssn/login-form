@@ -42,7 +42,10 @@ To use this component in your React project, follow these steps:
 
    ```shell
    npm install react-styled-components
-   or
+
+ or
+
+   ```shell
    yarn add react-styled-components
 
 ## Contributing
