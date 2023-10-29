@@ -27,14 +27,14 @@ const SignUp = () => {
         <Input type="text" placeholder="Name" />
         <Input type="email" placeholder="Email" />
         <Input type="password" placeholder="Password" />
+        <CheckBox>
+          <input type="checkbox" />
+          <span>Agree to</span>{" "}
+          <span style={{ fontWeight: "bold", textDecoration: "underline" }}>
+            Terms & Conditions
+          </span>
+        </CheckBox>
       </InputContainer>
-      <CheckBox>
-        <input type="checkbox" />
-        <span>Agree to</span>{" "}
-        <span style={{ fontWeight: "bold", textDecoration: "underline" }}>
-          Terms & Conditions
-        </span>
-      </CheckBox>
       <ButtonContainer>
         <Button content="Sign Up" />
       </ButtonContainer>

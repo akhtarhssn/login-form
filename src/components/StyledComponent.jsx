@@ -32,7 +32,7 @@ const MainContainer = styled.div`
     }
   }
   @media only screen and (min-width: 411px) {
-    width: 450px;
+    width: 90vw;
     height: 100%;
   }
 
@@ -72,11 +72,11 @@ const ButtonContainer = styled.div`
 `;
 
 const HorizontalRule = styled.hr`
-  width: 90%;
+  width: 20%;
   height: 0.2rem;
   border-radius: 0.8rem;
   border: none;
-  background: linear-gradient(to right, #ffffff 0%, #03217b 79%);
+  background: #fff;
   background-color: #ebd0d0;
   margin: 1.5rem 0 1rem 0;
   backdrop-filter: blur(25px);
@@ -104,6 +104,13 @@ const CheckBox = styled.div`
   justify-content: flex-start;
   text-transform: none;
   gap: 10px;
+
+  @media only screen and (max-width: 320px) {
+    margin-left: 70px;
+  }
+  @media only screen and (min-width: 360px) {
+    margin-left: 70px;
+  }
 `;
 
 export {

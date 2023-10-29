@@ -27,18 +27,18 @@ const Login = () => {
       <InputContainer>
         <Input type="text" placeholder="Email" />
         <Input type="password" placeholder="Password" />
+        <CheckBox>
+          <input type="checkbox" />
+          <span>Remember Me</span>
+        </CheckBox>
+        <CheckBox>
+          <input type="checkbox" />
+          <span>Agree to</span>{" "}
+          <span style={{ fontWeight: "bold", textDecoration: "underline" }}>
+            Terms & Conditions
+          </span>
+        </CheckBox>
       </InputContainer>
-      <CheckBox>
-        <input type="checkbox" />
-        <span>Remember Me</span>
-      </CheckBox>
-      <CheckBox>
-        <input type="checkbox" />
-        <span>Agree to</span>{" "}
-        <span style={{ fontWeight: "bold", textDecoration: "underline" }}>
-          Terms & Conditions
-        </span>
-      </CheckBox>
       <ButtonContainer>
         <Button content="Login" />
       </ButtonContainer>
